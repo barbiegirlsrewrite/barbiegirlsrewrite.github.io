@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=1024">
-    <title>Barbie Girls Rewritten</title>
+    <title>Barbiegirls Rewritten</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -21,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Barbie Girls Rewritten</div>
+        <div id="unity-build-title">Barbiegirls Rewritten</div>
       </div>
     </div>
     <script>
@@ -76,16 +75,16 @@
       // the canvas DOM size and WebGL render target sizes yourself.
       // config.matchWebGLToCanvasSize = false;
 
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      /*if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {s
         container.className = "unity-mobile";
         // Avoid draining fillrate performance on mobile devices,
         // and default/override low DPI mode on mobile browsers.
         config.devicePixelRatio = 1;
         unityShowBanner('WebGL builds are not supported on mobile devices.');
-      } else {
+      } else {*/
         canvas.style.width = "960px";
         canvas.style.height = "600px";
-      }
+      //}
       canvas.style.background = "url('" + buildUrl + "/barbiegirlsrewrite.github.io.jpg') center / cover";
       loadingBar.style.display = "block";
 
